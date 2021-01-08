@@ -101,7 +101,7 @@
             <main class="py-4">
                 @section('afternav')
                 <div class="promos mb-5">
-                    <a href="#"><img src="{{ asset('images/others/promos3.png') }}" alt="" class="img-fluid"></a>
+                    <a href="#"><img src="{{ asset('images/others/promos3.png') }}" alt="" class=""></a>
                 </div>
                 
                 <div class="tagline mb-5 p-2 bg-primary-rgb">
