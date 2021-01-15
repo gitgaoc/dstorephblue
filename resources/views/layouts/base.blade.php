@@ -14,7 +14,7 @@
 
         <!-- Fonts -->
         <link rel="dns-prefetch" href="//fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+        <!-- <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> -->
 
         <!-- Styles -->
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -39,10 +39,10 @@
                         <!-- Right side of Navbar -->
                         <ul class="navbar-nav">
                             <li class="nav-item mr-4">
-                                <a href="#" class="nav-link text-white">ABOUT US</a>
+                                <a href="{{ url('/about-us') }}" class="nav-link text-white">ABOUT US</a>
                             </li> <!-- /.nav-item -->
                             <li class="nav-item mr-4">
-                                <a href="#" class="nav-link text-white">CUSTOMER CARE</a>
+                                <a href="{{ url('/customer-care') }}" class="nav-link text-white">CUSTOMER CARE</a>
                             </li> <!-- /.nav-item -->
                             <li class="nav-item mr-4">
                                 <a href="#" class="nav-link text-white">NOTIFICATIONS <i class="fas fa-bell"></i></a>
@@ -79,7 +79,7 @@
                                         <!-- https://www.geeksforgeeks.org/bootstrap-4-nav-pills/ -->
                                             <nav class="nav nav-pills nav-fill">
                                                 <a href="#" class="nav-item nav-link p-0 active">SHOP NOW</a>
-                                                <a href="#" class="nav-item nav-link p-0">SELL NOW</a>
+                                                <a href="{{ url('/seller') }}" class="nav-item nav-link p-0">SELL NOW</a>
                                                 <a href="#" class="nav-item nav-link p-0">TRACK MY ORDER</a>
                                             </nav>
                                         </div>
@@ -91,7 +91,8 @@
                         <div class="col-md-3">
                             <div class="wrap">
                                 <div class="fas fa-shopping-cart action-icon txt-primary-rgb mr-5"></div>
-                                <div class="fas fa-sign-in-alt action-icon txt-primary-rgb"></div>
+                                <!-- <div class="fas fa-sign-in-alt action-icon txt-primary-rgb"></div> -->
+                                <a href="{{ url('/login') }}"><i class="fas fa-sign-in-alt action-icon txt-primary-rgb"></i></a>
                             </div>
                         </div> <!-- /.col-md-4 -->
                     </div>

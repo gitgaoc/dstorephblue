@@ -16,4 +16,19 @@ class HomestoreController extends Controller
     {
         return view('/store/selected');
     }
+
+    public function seller()
+    {
+        return view('/store/seller');
+    }
+
+    public function aboutus()
+    {
+        return view('/store/aboutus');
+    }
+
+    public function customer_care()
+    {
+        return view('/store/customercare');
+    }
 }

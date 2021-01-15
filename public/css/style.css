@@ -1,4 +1,13 @@
 /* ---- GLOBAL STYLES ---- */
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+
+body {
+    font-family: 'Padauk', sans-serif;
+}
+
+.bg-gradient {
+    background: linear-gradient(to bottom, rgba(78, 179, 173, 0) 0%, rgba(78, 179, 173, 0.5) 50%,  rgba(78, 179, 173, 1) 100%);
+}
 
 
 /* Primary Colors */
@@ -8,6 +17,46 @@
 
 .bg-primary-rgb {
     background: rgb(78, 179, 173);
+}
+
+.bg-primary-rgba-100 {
+    background: rgba(78, 179, 173, 1);
+}
+
+.bg-primary-rgba-90 {
+    background: rgba(78, 179, 173, 0.9);
+}
+
+.bg-primary-rgba-80 {
+    background: rgba(78, 179, 173, 0.8);
+}
+
+.bg-primary-rgba-70 {
+    background: rgba(78, 179, 173, 0.7);
+}
+
+.bg-primary-rgba-60 {
+    background: rgba(78, 179, 173, 0.6);
+}
+
+.bg-primary-rgba-50 {
+    background: rgba(78, 179, 173, 0.5);
+}
+
+.bg-primary-rgba-40 {
+    background: rgba(78, 179, 173, 0.4);
+}
+
+.bg-primary-rgba-30 {
+    background: rgba(78, 179, 173, 0.3);
+}
+
+.bg-primary-rgba-20 {
+    background: rgba(78, 179, 173, 0.2);
+}
+
+.bg-primary-rgba-10 {
+    background: rgba(78, 179, 173, 0.1);
 }
 
 .txt-primary {
@@ -63,6 +112,46 @@
 
 .bg-secondary-rgb {
     background: rgb(12, 98, 113);
+}
+
+.bg-secondary-rgba-100 {
+    background: rgba(12, 98, 113, 1);
+}
+
+.bg-secondary-rgba-90 {
+    background: rgba(12, 98, 113, 0.9);
+}
+
+.bg-secondary-rgba-80 {
+    background: rgba(12, 98, 113, 0.8);
+}
+
+.bg-secondary-rgba-70 {
+    background: rgba(12, 98, 113, 0.7);
+}
+
+.bg-secondary-rgba-60 {
+    background: rgba(12, 98, 113, 0.6);
+}
+
+.bg-secondary-rgba-50 {
+    background: rgba(12, 98, 113, 0.5);
+}
+
+.bg-secondary-rgba-40 {
+    background: rgba(12, 98, 113, 0.4);
+}
+
+.bg-secondary-rgba-30 {
+    background: rgba(12, 98, 113, 0.3);
+}
+
+.bg-secondary-rgba-20 {
+    background: rgba(12, 98, 113, 0.2);
+}
+
+.bg-secondary-rgba-10 {
+    background: rgba(12, 98, 113, 0.1);
 }
 
 .txt-secondary {
@@ -230,7 +319,9 @@
 
  /* ---- FOOTER STYLES ---- */
  .footer {
-  
+     /* position: absolute;
+     width: 100%;
+     bottom: 0; */
  }
 
  .footer .footer-row-2 h5 {
@@ -254,3 +345,19 @@
      border-bottom-left-radius: 2em;
  }
 
+ /* ----- SELLER ------ */
+ .seller-container-1 {
+     border-radius: 1em;
+ }
+
+ .seller-tagline, .seller-register {
+     border-top-left-radius: 15px;
+     border-bottom-left-radius: 15px;
+     border-top-right-radius: 15px;
+     border-bottom-right-radius: 15px;
+ }
+
+ .seller-register {
+     font-size: 20px;
+     letter-spacing: 5px;
+ }

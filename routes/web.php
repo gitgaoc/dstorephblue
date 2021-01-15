@@ -21,3 +21,9 @@ Auth::routes();
 
 Route::get('/', 'HomestoreController@index');
 Route::get('/selected', 'HomestoreController@selected_product');
+Route::get('/seller', 'HomestoreController@seller');
+Route::get('/about-us', 'HomestoreController@aboutus');
+Route::get('/customer-care', 'HomestoreController@customer_care');
+
+// Login and Signup
+Route::get('/login', 'AuthenticationController@login');
